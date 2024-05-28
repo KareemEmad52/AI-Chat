@@ -1,0 +1,62 @@
+
+/* Style for the chat container */
+.chatContainer {
+  max-width: 600px; /* Adjust as needed */
+  margin: 15px 35px;
+}
+
+/* Style for individual chat messages */
+.chatMessage {
+  background-color: #f0f0f0; /* Background color */
+  color: #333; /* Text color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px 15px; /* Padding inside the message */
+  margin: 10px 0; /* Margin between messages */
+  max-width: 80%; /* Maximum width of the message */
+}
+
+/* Style for user's messages */
+.chatMessage.user {
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+}
+
+/* Style for the message timestamp */
+.messageTimestamp {
+  font-size: 0.8em; /* Smaller font size */
+  color: #888; /* Light gray color */
+}
+
+
+.MessageCont{
+  max-width: 950px !important;
+  max-height: 600px !important;
+}
+
+.chatMessageLoader{
+  width: fit-content !important;
+}
+
+
+/* CSS for custom scrollbar */
+.scrollableDiv::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Track */
+.scrollableDiv::-webkit-scrollbar-track {
+  background: #f1f1f1 !important; /* Color of the scrollbar track */
+}
+
+/* Handle */
+.scrollableDiv::-webkit-scrollbar-thumb {
+  background: #4fa94d !important; /* Color of the scrollbar handle */
+  border-radius: 5px !important; /* Rounded corners of the scrollbar handle */
+}
+
+/* Handle on hover */
+.scrollableDiv::-webkit-scrollbar-thumb:hover {
+  background: #3d8d3b !important; /* Color of the scrollbar handle on hover */
+}
+
+

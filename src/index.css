@@ -1,0 +1,25 @@
+/* Style for form input fields when active */
+.form-control:focus {
+    border-color: #28a745 !important; /* Change border color */
+    box-shadow: 0 0 5px #28a745 !important; /* Add a subtle shadow */
+  }
+  
+  /* Style for form submit button when active */
+  .form-control[type="submit"]:focus {
+    background-color: #28a745 !important; /* Change background color */
+    color: #fff !important; /* Change text color */
+    border-color: #28a745 !important; /* Change border color */
+  }
+  
+  /* Style for form when it's active */
+  .form-control:focus {
+    border: 1px solid #358f65 !important; /* Change border style */
+    box-shadow: 0 0 13px #198754 !important; /* Add a shadow effect */
+  }
+  
+  /* Style for form labels when input is focused */
+  label .form-control:focus + span {
+    transform: translateY(-30px) scale(0.8); /* Move label up and scale */
+    color: #28a745 !important; /* Change label color */
+  }
+  
