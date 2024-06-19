@@ -18,7 +18,6 @@ export default function Login() {
 
     const navigate = useNavigate();
     let [isLoading, setIsLoading] = useState(false)
-    let [errors, setErrors] = useState(null)
     let { logedInUser, setUserToken } = useUser()
 
 
